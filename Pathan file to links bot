@@ -1,0 +1,46 @@
+pip install python-telegram-bot pyshorteners
+import os
+import telegram
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+import re
+import pyshorteners
+
+# Get the bot token from an environment variable
+BOT_TOKEN = '5945429183:AAELIsjDLbAZjV_QPdr5S4RPdCQr8wV1GRo'
+
+def start(update, context):
+    update.message.reply_text("Hello! I'm a bot. Send me a file containing URLs, and I'll provide shortened links for them.")
+
+def extract_and_shorten_links(text):
+    s = pyshorteners.Shortener()
+    urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', text)
+    shortened_urls = [s.tinyurl.short(url) for url in urls]
+    return shortened_urls
+
+def handle_document(update, context):
+    document = update.message.document
+    file_id = document.file_id
+    file = context.bot.get_file(file_id)
+    file.download("temp.txt")
+    with open("temp.txt", "r") as f:
+        file_text = f.read()
+        shortened_urls = extract_and_shorten_links(file_text)
+        response = "\n".join(shortened_urls)
+        update.message.reply_text(f"Shortened URLs:\n{response}")
+    os.remove("temp.txt")
+
+def main():
+    updater = Updater(token=BOT_TOKEN, use_context=True)
+    dispatcher = updater.dispatcher
+
+    start_handler = CommandHandler('start', start)
+    dispatcher.add_handler(start_handler)
+
+    document_handler = MessageHandler(Filters.document.mime_type("text/plain"), handle_document)
+    dispatcher.add_handler(document_handler)
+
+    updater.start_polling()
+    updater.idle()
+
+if name == "main":
+    main()
