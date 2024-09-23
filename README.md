@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://github.com/Arshlankhan786/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Pathanbotz &font=Fira%20SemiBold&center=true&width=480&height=45&color=fff68f&vCenter=true&pause=1000&size=40" /></a>
+    <img src="https://readme-typing-svg.demolab.com/?lines=Pathan Arshlan &font=Fira%20SemiBold&center=true&width=480&height=45&color=fff68f&vCenter=true&pause=1000&size=40" /></a>
 </p>
 
 <p align="center">
