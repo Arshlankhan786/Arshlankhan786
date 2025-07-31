@@ -1,13 +1,10 @@
 
-<p align="center">
-  <a href="https://github.com/Arshlankhan786/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Pathan Arshlan &font=Fira%20SemiBold&center=true&width=480&height=45&color=fff68f&vCenter=true&pause=1000&size=40" /></a>
-</p>
 
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;Pathan+Arshlan;React+Learner;UI+Enthusiast&center=true&size=20">
+</h3>
 <p align="center">
-  <a href="https://github.com/Arshlankhan786/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=beginner%20websites%20and%20BOT%20developer;Web%20Devlopment;12 months%20of%20coding%20experience;Always%20learning%20new%20things;&font=Fira%20Code&center=true&width=500&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" /></a>
-</p>
+
 
 <p align="center">
  I am bignner devloper. 😁
@@ -23,7 +20,7 @@
 
 
 # 💫 About Me:
-✨ I am Learning JavaScript .<br>🎉 Already learned HTML, CSS & BOOTSTRAP.<br>🔥 My Goal is to Become a Web Developer.<br>💥 Making Websites For Fun.<br>⚡Trying to make New things.<br>💭Any Time Available For Help...
+✨ I am Learning React .<br>🎉 Already learned HTML, CSS, BOOTSTRAP & JAVASCRIPT.<br>🔥 My Goal is to Become a Web Developer.<br>💥 Making Websites For Fun.<br>⚡Trying to make New things.<br>💭Any Time Available For Help...
 
 
 ## 🌐 Socials:
@@ -34,7 +31,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Arshlankhan786&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Arshlankhan786&theme=dark&hide_border=false)<br/>
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arshlankhan786&layout=compact&theme=radical" alt="languages" />
 ---
 [![](https://visitcount.itsvg.in/api?id=Arshlankhan786&icon=2&color=0)](https://visitcount.itsvg.in)
 
